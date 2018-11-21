@@ -22,7 +22,7 @@ class PopularMovies extends React.Component {
       .then(function(response) {
         // handle success
         const movie = response.data.results;
-        console.log(movie);
+        console.log('movie', movie);
         self.setState({
           movie
         });
@@ -33,8 +33,9 @@ class PopularMovies extends React.Component {
       })
       .then(function() {
         // always executed
-        //console.log("Movies" + data);
+        //console.log("Movies" + data);              
       });
+
   }
 
   render() {
