@@ -1,0 +1,44 @@
+.grid {
+  border: 2px solid #e8e8e8;
+  border-style: solid;
+  margin-bottom: 25px;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #191970;
+}
+
+.poster {
+}
+.popularRoot {
+  background-color: white;
+}
+
+.homeDiv {
+  margin: 30px;
+  position: fixed;
+  color: #191970;
+  background-color: white;
+}
+
+.bread {
+  background-color: white;
+
+  margin: 0px;
+  color: white;
+}
+
+.jumbotron {
+  background-color: white;
+  padding-top: 10px;
+}
+
+.popular-movie-title {
+  margin-top: 15px;
+}
+
+.popular-language {
+  padding-bottom: 30px;
+}
